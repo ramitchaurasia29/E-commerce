@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+}
+
+.top{
+    width: 50%;
+}
+.parent{
+    height: 200px;
+    width: 40%;
+}
+
+.child:nth-child(1){
+    background-color: aqua;
+    width: 40%;
+    height: 30px;
+}
+.child:nth-child(2){
+    background-color: rgb(53, 194, 103);
+    width: 40%;
+    height: 30px;
+}
